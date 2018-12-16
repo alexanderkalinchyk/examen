@@ -1,0 +1,71 @@
+@import './css/reset.css';
+@import './css/vars.css';
+@import './css/header.css';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* stylelint-disable */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.game{
+  display: flex;
+  justify-content: center;
+}
+
+.overlay{
+  position: absolute;
+  top:5rem;
+  z-index: 1000;
+  background-color: black;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  width:50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.overlay__nameinput{
+  width: 15rem;
+  padding:1rem;
+  border-radius: 0.8rem;
+  border:1px solid black;
+  font-size: 2rem;
+  text-align: center;
+}
+.overlay__nameinput:focus{
+  outline: none;
+}
+.hidden{
+  display: none;
+}
+.playerScores {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+.scores {
+  text-transform: uppercase;
+  padding: .5rem;
+  letter-spacing: .2rem;
+  color: white
+}
