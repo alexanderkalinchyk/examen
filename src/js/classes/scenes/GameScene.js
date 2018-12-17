@@ -1,9 +1,6 @@
-
-
-
 //import game objects
-import Something from '../../gameobjects/Something';
-
+import Player from '../../gameobjects/Player';
+let playerLocation = 0;
 export default class GameScene extends Phaser.Scene {
   constructor() {
     super({
@@ -14,10 +11,27 @@ export default class GameScene extends Phaser.Scene {
     this.score = 0;
   }
   create() {
-    //setup scorefield
-    this.scoreTextField = this.add.text(16, 16, `Score: 0`, {fontSize: `32px`, fill: `#FFFFFF`});
+    this.add.image(
+      this.sys.game.config.width / 2,
+      this.sys.game.config.height / 2,
+      `sky`
+    );
+    this.createPlayer();
+    this.createBal();
   }
-  update(){
-
+  createBal() {
+    this.ball = new ball(this, 100, 600, `spritesheet`);
+  }
+  createPlayer() {
+    this.player = new Player(this, 100, 600, `spritesheet`);
+    this.input.on(`pointermove`, this.movePointer);
+    playerLocation = this.player.x;
+  }
+  movePointer(pointer) {
+    //console.log(playerLocation);
+    playerLocation = pointer.x;
+  }
+  update() {
+    this.player.x = playerLocation;
   }
 }
