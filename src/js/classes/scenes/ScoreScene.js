@@ -14,6 +14,11 @@ export default class ScoreScene extends Phaser.Scene {
   }
 
   create() {
+    this.add.image(
+      this.sys.game.config.width / 2,
+      this.sys.game.config.height / 2,
+      `gameover`
+    );
     const $overlay = document.querySelector(`.overlay`);
     $overlay.classList.remove(`hidden`);
 
@@ -21,7 +26,7 @@ export default class ScoreScene extends Phaser.Scene {
     $name.querySelector(`.name`);
     $name.focus();
 
-    const submitButton = this.add.text(220, 100, 'Submit', {fill: '#ffffff'});
+    const submitButton = this.add.text(340, 300, 'Submit', {fill: '#000000'});
     submitButton.setInteractive();
 
     submitButton.on('pointerdown', () => {
@@ -45,7 +50,7 @@ export default class ScoreScene extends Phaser.Scene {
       //console.log(player);
       const $p = document.createElement(`p`);
       $p.classList.add(`scores`);
-      $p.textContent = `${player.name} - ${player.score}`;
+      $p.textContent = `${player.name} -> ${player.score}`;
       $playerScores.appendChild($p);
     });
   }
