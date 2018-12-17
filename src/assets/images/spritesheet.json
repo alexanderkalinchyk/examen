@@ -1,0 +1,230 @@
+{
+	"textures": [
+		{
+			"image": "spritesheet.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 207,
+				"h": 496
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "paddle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 169
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 198,
+						"h": 169
+					}
+				},
+				{
+					"filename": "particle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 1,
+						"y": 172,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "kado3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 87
+					},
+					"frame": {
+						"x": 131,
+						"y": 172,
+						"w": 75,
+						"h": 87
+					}
+				},
+				{
+					"filename": "ball3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 31
+					},
+					"frame": {
+						"x": 131,
+						"y": 261,
+						"w": 30,
+						"h": 31
+					}
+				},
+				{
+					"filename": "ball1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 163,
+						"y": 261,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "ball2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 163,
+						"y": 293,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "kado1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 302,
+						"w": 80,
+						"h": 86
+					}
+				},
+				{
+					"filename": "kado2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 87
+					},
+					"frame": {
+						"x": 83,
+						"y": 302,
+						"w": 78,
+						"h": 87
+					}
+				},
+				{
+					"filename": "btn-highscore.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 175,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 175,
+						"h": 51
+					},
+					"frame": {
+						"x": 1,
+						"y": 391,
+						"w": 175,
+						"h": 51
+					}
+				},
+				{
+					"filename": "btn-play.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 165,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 165,
+						"h": 51
+					},
+					"frame": {
+						"x": 1,
+						"y": 444,
+						"w": 165,
+						"h": 51
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ae22d1ef89ae2966945384cc36e16741:3144f26103a3bddba8d3d9b7f5bb6b7c:729adc6043343cfda41c447ce8f464d6$"
+	}
+}
